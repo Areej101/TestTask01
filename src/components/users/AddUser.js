@@ -54,16 +54,6 @@ const AddUser = () => {
                             onChange={e => onInputChange(e)}
                         />
                     </div>
-                    <div className="form-group" class="mb-3">
-                        <input
-                            type="text"
-                            className="form-control form-control-lg"
-                            placeholder="Enter Your Phone Number"
-                            name="phone"
-                            value={phone}
-                            onChange={e => onInputChange(e)}
-                        />
-                    </div>
                     <div class="d-grid gap-2">
                         <button className="btn btn-success btn-block">Add User</button>
                     </div>
